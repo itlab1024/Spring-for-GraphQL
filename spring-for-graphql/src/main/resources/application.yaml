@@ -1,0 +1,14 @@
+spring:
+  graphql:
+    schema:
+      printer:
+        enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-for-graphql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: qwe!@#123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
